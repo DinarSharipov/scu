@@ -1,11 +1,11 @@
 {
-  "name": "scu",
+  "name": "@DinarSharipov/scu",
   "version": "0.0.1",
   "description": "simple customizable ui library",
   "scripts": {
     "rollup": "rollup -c"
   },
-  "author": "Dinar Sharipov",
+  "author": "DinarSharipov",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "21.0.1",
@@ -22,5 +22,8 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://github.com/DinarSharipov/scu"
+  }
 }
